@@ -1,5 +1,5 @@
-4} Given a sorted array of distinct integers and a target value, return the index if the target is found. 
-If not, return the index where it would be if it were inserted in order.
+// 4} Given a sorted array of distinct integers and a target value, return the index if the target is found. 
+// If not, return the index where it would be if it were inserted in order.
 
 
 CODE =>
@@ -14,9 +14,9 @@ class Solution {
     }
 }
 
-5} You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+// 5} You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
 
-Increment the large integer by one and return the resulting array of digits.
+// Increment the large integer by one and return the resulting array of digits.
 
 CODE =>
 class Solution {
@@ -36,9 +36,9 @@ class Solution {
 }
 
 
-6} You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
+// 6} You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
 
-Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+// Merge nums1 and nums2 into a single array sorted in non-decreasing order.
 
 CODE=>
 import java.util.Arrays;
