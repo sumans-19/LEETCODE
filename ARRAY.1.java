@@ -1,4 +1,4 @@
-1} Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+// 1} Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 => class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -14,8 +14,8 @@
 }
 
 
-2} Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once.
-The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+// 2} Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once.
+// The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 
 => class Solution {
     public int removeDuplicates(int[] nums) {
@@ -33,9 +33,9 @@ The relative order of the elements should be kept the same. Then return the numb
 }
 
 
-3} Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed.
-Then return the number of elements in nums which are not equal to val.Consider the number of elements in nums which are not equal to val be k,
-to get accepted, you need to do the following things
+// 3} Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed.
+// Then return the number of elements in nums which are not equal to val.Consider the number of elements in nums which are not equal to val be k,
+// to get accepted, you need to do the following things
 
 => class Solution {
     public int removeElement(int[] nums, int val) {
