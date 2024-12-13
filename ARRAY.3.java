@@ -1,6 +1,6 @@
-7} Given an integer array nums where the elements are sorted in ascending order, convert it to a 
-height-balanced
- binary search tree. 
+// 7} Given an integer array nums where the elements are sorted in ascending order, convert it to a 
+// height-balanced
+//  binary search tree. 
 
  CODE =>
  /**
@@ -28,9 +28,9 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
         return ConvToBST(nums, 0, numsSize-1);
 }
 
-8} You are given an array prices where prices[i] is the price of a given stock on the ith day.
-You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
-Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+// 8} You are given an array prices where prices[i] is the price of a given stock on the ith day.
+// You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+// Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
 
 CODE =>
@@ -55,8 +55,8 @@ class Solution {
     }
 }
 
-9} You are given an array prices where prices[i] is the price of a given stock on the ith day.
-You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+// 9} You are given an array prices where prices[i] is the price of a given stock on the ith day.
+// You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
 
 
 CODE =>
