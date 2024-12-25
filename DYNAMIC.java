@@ -59,3 +59,20 @@ CODE =>
 // Space Complexity: 
 // 𝑂(amount)
 // O(amount), as we use a single array of size amount + 1.
+
+
+
+The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, 
+such that each number is the sum of the two preceding ones, starting from 0 and 1. 
+
+
+CODE =?
+  class Solution {
+    public int fib(int n) {
+        if(n<=1)return n;
+        int i = fib(n-1);
+        int j = fib(n-2);
+        return i + j;
+    }
+}
+
