@@ -38,10 +38,45 @@ CODE=>
 
 
 
-// Complexity
-// Time complexity:
-// The time complexity of this approach is O(logN). It's very efficient because 
-// Binary Search reduces the search range by half in each iteration, making the search faster.
-// Space complexity:
-// The space complexity is O(1), which means the amount of extra memory used is constant, regardless of the input. 
-// We only use a few variables to store the search range and the middle value during the computation.
+Complexity
+Time complexity:
+The time complexity of this approach is O(logN). It's very efficient because 
+Binary Search reduces the search range by half in each iteration, making the search faster.
+Space complexity:
+The space complexity is O(1), which means the amount of extra memory used is constant, regardless of the input. 
+We only use a few variables to store the search range and the middle value during the computation.
+
+
+
+
+// Given an integer n, return a string array answer (1-indexed) where:
+
+// answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+// answer[i] == "Fizz" if i is divisible by 3.
+// answer[i] == "Buzz" if i is divisible by 5.
+// answer[i] == i (as a string) if none of the above conditions are true.
+
+CODE => 
+  import java.util.*;
+
+class Solution {
+    public List<String> fizzBuzz(int n) {
+        List<String> result = new ArrayList<>();
+        for (int i = 1; i <= n; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                result.add("FizzBuzz");
+            } else if (i % 3 == 0) {
+                result.add("Fizz");
+            } else if (i % 5 == 0) {
+                result.add("Buzz");
+            } else {
+                result.add(Integer.toString(i));
+            }
+        }
+        return result;
+    }
+}
+
+
+Time Complexity: ( O(n) ), as we iterate from 1 to ( n ).
+Space Complexity: ( O(n) ), as we store the result in a list.
