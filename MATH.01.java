@@ -106,3 +106,8 @@ CODE =>
     }
 }
 
+Time Complexity: 
+𝑂(𝑛) O(n)
+Space Complexity: 
+𝑂(1) O(1)
+
