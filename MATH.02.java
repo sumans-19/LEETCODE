@@ -64,3 +64,10 @@ O(n)
         return sum;
     }
 }
+
+Java Solution using Stack with O(n)
+The algorithm is efficient, with linear time complexity and space complexity depending on the depth of parentheses.
+  Space Complexity: O(d)
+  Time Complexity: O(n)
+
+
