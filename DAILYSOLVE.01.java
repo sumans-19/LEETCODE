@@ -40,3 +40,31 @@ CODE =>
 
 // Only a few integer variables (onesCount, zerosCount, totalOnes, and bestScore) are used.
 // Total space complexity: (O(1)).
+
+
+
+// Given an array of string words, return all strings in words that is a substring of another word. You can return the answer in any order.
+// A substring is a contiguous sequence of characters within a string
+
+
+CODE => 
+  import java.util.*;
+
+class Solution {
+    public List<String> stringMatching(String[] words) {
+        int n = words.length;
+        List<String> ans = new ArrayList<>();
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (i != j && words[j].contains(words[i])) {
+                    ans.add(words[i]);
+                    break;
+                }
+            }
+        }
+
+        return ans;
+    }
+}
+
