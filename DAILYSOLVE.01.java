@@ -68,16 +68,16 @@ class Solution {
     }
 }
 
-Complexity
+// Complexity
   
-Time Complexity:
-Sorting words by length: O(nlogn)
-Nested comparison: O(n 2⋅m),
-where n is the number of words and m is the average length of words.
-Deduplication: O(rlogr), where r is the size of the result vector.
-Overall: O(n 2⋅m) in the worst case.
+// Time Complexity:
+// Sorting words by length: O(nlogn)
+// Nested comparison: O(n 2⋅m),
+// where n is the number of words and m is the average length of words.
+// Deduplication: O(rlogr), where r is the size of the result vector.
+// Overall: O(n 2⋅m) in the worst case.
   
-Space Complexity:
-Result vector requires O(r) space.
-Overall: O(r).
+// Space Complexity:
+// Result vector requires O(r) space.
+// Overall: O(r).
 
