@@ -3,7 +3,7 @@
 // A zero-based permutation nums is an array of distinct integers from 0 to nums.length - 1 (inclusive).
 
 
-public class Leet01 {
+public class BuildArray {
     public int[] buildArray(int[] nums) {
         int l = nums.length;
         int[] ans = new int[l];
@@ -13,7 +13,7 @@ public class Leet01 {
             return ans;
     }
     public static void main(String[] args) {
-        Leet01 leet01 = new Leet01();
+        BuildArray leet01 = new BuildArray();
         int[] nums = {0,2,1,5,3,4};
         int ans[] = leet01.buildArray(nums);
         for(int i = 0; i < ans.length; i++) {
