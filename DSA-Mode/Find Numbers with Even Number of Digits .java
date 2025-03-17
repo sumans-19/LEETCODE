@@ -29,3 +29,13 @@ public class Leet05 {
 
     }
 }
+
+
+// to find number of digits in a number:
+if(num < 0){
+    num = num *-1;
+}
+if(num =0){
+    return 1;
+}
+return (int)(Math.log(num)) +1 ;
