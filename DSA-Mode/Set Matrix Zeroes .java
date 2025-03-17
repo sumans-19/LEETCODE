@@ -4,7 +4,7 @@
 class Solution {
     public void setZeroes(int[][] matrix) {
 
-        Set<Integer> rows = new HashSet<>();
+        Set<Integer> rows = new HashSet<>(); //  HashSet is a collection of items where every item is unique, and it is found in the java.util package
         Set<Integer> cols = new HashSet<>();
 
         for (int i = 0; i < matrix.length; i++) {
