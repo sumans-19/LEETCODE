@@ -21,9 +21,8 @@ public class code06 {
                 return nums[mid];              
             }          
         }         
-        
-        // Edge case: If target is greater than the last element, return -1 (or a custom message)
-        if (start >= len) {
+       // Edge case: If target is greater than the last element, return -1 (or a custom message)
+        if (target > nums[len-1]) {
             return -1; // Indicating no valid ceiling found
         }
 
