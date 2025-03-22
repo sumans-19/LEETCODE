@@ -23,7 +23,7 @@ public class code07 {
         }         
 
         // Edge case: If target is smaller than the smallest element, return -1
-        if (end < 0) {
+        if (target < nums[0]) {
             return -1;  
         }
 
